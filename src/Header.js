@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="flex justify-between items-center space-x-6 bg-slate-400 h-36">
+    <div className="flex justify-between items-center space-x-6 bg-slate-400 h-36 mb-9">
       <div className="flex items-center">
         <img
           src="https://cdn.dribbble.com/users/677572/screenshots/15446498/media/fb5214f261c459894b041ef74abc96ac.png?compress=1&resize=400x300"
