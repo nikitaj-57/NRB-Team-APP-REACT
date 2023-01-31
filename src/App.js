@@ -1,11 +1,9 @@
-// import logo from './logo.svg';
-import "./App.css";
-import Header from "./Header";
+import AppLayout from "./AppLayout";
 
 export default function App() {
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+      <AppLayout />
+    </>
   );
 }
