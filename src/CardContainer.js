@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardComponent from "./CardComponent";
-import data from "./data/data";
+// import data from "./data/data";
 
-const CardContainer = () => {
+const CardContainer = ({ users }) => {
+  useEffect(() => {}, []);
   return (
     <div className="grid lg:grid-cols-3">
-      {data.map((user) => (
+      {users.map((user) => (
         <CardComponent key={user.id} user={user} />
       ))}
     </div>
